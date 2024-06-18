@@ -35,7 +35,7 @@ def initialize():
 
     ##### SET WORKING REGION #####
     # Options: 'africa', 'america', 'asia', 'europe'
-    selected_region = "america"
+    selected_region = "africa"
 
     ##### SET GRAPH TITLE #####
     output_chart_title = 'Payment types for Africa from 2000 to 2021'
