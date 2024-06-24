@@ -1,5 +1,5 @@
 
-# Chinese Loans Data Visualization Project
+# Chinese Loans in Africa and South America Data Visualization Project
 
 This project provides scripts to visualize Chinese loans data by generating bar charts, top recipients lists, and animated GIFs. The scripts filter and process data from a CSV file containing information on Chinese loans to various regions and produce visual outputs based on user-specified parameters. This source data comes from the Global Aid Data organization:
 https://docs.aiddata.org/ad4/datasets/AidDatas_Global_Chinese_Development_Finance_Dataset_Version_3_0.zip
