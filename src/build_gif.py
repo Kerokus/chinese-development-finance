@@ -14,9 +14,9 @@ def initialize():
     global input_directory, output_directory, output_filename
 
     ##### SET FILE LOCATIONS #####
-    input_directory = "../img/south-america/gif_frames"
-    output_directory = "../img/south-america"
-    output_filename = "chinese-loans-south-america-2000-2021.gif"
+    input_directory = "../img/europe/gif_frames"
+    output_directory = "../img/europe"
+    output_filename = "chinese-loans-europe-2000-2021.gif"
 
 
 def create_gif():

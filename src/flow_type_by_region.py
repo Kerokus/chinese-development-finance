@@ -16,7 +16,6 @@ from matplotlib.ticker import FuncFormatter
 
 
 def initialize():
-    """Initialize settings and configurations."""
     global df_selected_columns, output_chart_title, selected_region, \
         words_in_bar, selected_year
 
@@ -50,7 +49,6 @@ def initialize():
 
 
 def load_environment():
-    """Load the dataset and prepare the environment."""
     global region_df, flow_type_summary
 
     # Load dataset
@@ -62,10 +60,10 @@ def load_environment():
     region_df = input_clean_df[input_clean_df['Recipient Region'].str.lower(
     ) == selected_region]
 
-    # Ensure 'Commitment Year' is an integer
+    # Ensure 'Commitment Year' is an integer to stop weeird looping errors
     region_df['Commitment Year'] = region_df['Commitment Year'].astype(int)
 
-    # Filter by the selected year if specified
+    # Filter by the selected year (if specified)
     if selected_year is not None:
         region_df = region_df[region_df['Commitment Year'] == selected_year]
 
@@ -79,7 +77,7 @@ def load_environment():
 
 
 def plot_graph():
-    """Plot the bar chart."""
+    """This replaces the '1e09' with an actual value at the bottom"""
     def billions(x, pos):
         'The two args are the value and tick position'
         return '%1.1fB' % (x * 1e-9)

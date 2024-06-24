@@ -19,7 +19,6 @@ from matplotlib.ticker import FuncFormatter
 
 
 def initialize():
-    """Initialize settings and configurations."""
     global df_selected_columns, output_chart_title, selected_region, \
         words_in_bar, top_n, selected_year
 
@@ -62,14 +61,14 @@ def load_environment():
     input_raw_df = pd.read_csv(input_dataset, low_memory=False)
     input_clean_df = input_raw_df[df_selected_columns]
 
-    # Filter the DataFrame to include only rows where 'Recipient Region' matches the selected region
+    # Set the dataframe to the user-specified region
     region_df = input_clean_df[input_clean_df['Recipient Region'].str.lower(
     ) == selected_region]
 
-    # Ensure 'Commitment Year' is an integer
+    # Ensure 'Commitment Year' is an integer in order to stop weird looping.
     region_df['Commitment Year'] = region_df['Commitment Year'].astype(int)
 
-    # Filter by the selected year if specified
+    # Filter by the selected year (if specified)
     if selected_year is not None:
         region_df = region_df[region_df['Commitment Year'] == selected_year]
 

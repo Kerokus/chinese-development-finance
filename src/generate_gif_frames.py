@@ -25,7 +25,7 @@ def initialize():
         output_map_scope, output_map_title
     ##### SET FILE LOCATIONS #####
     input_dataset = "../data/chinese_loan_data.csv"
-    output_directory = "../img/south-america/gif_frames"
+    output_directory = "../img/europe/gif_frames"
 
     ##### SET SELECTED COLUMNS #####
     df_selected_columns = [
@@ -41,12 +41,12 @@ def initialize():
 
     ##### SET WORKING REGIONS #####
     # Options: 'africa', 'america', 'asia', 'europe'
-    selected_region = "america"
+    selected_region = "europe"
 
     # Select what map you want displayed.
     # Options: 'africa', 'asia', 'europe', 'north america', 'south america', 'usa', 'world'
-    output_map_scope = 'south america'
-    output_map_title = 'Chinese Loans in South America from 2000 to 2021'
+    output_map_scope = 'europe'
+    output_map_title = 'Chinese Loans in Europe from 2000 to 2021'
 
 
 def load_environment():
