@@ -1,0 +1,127 @@
+Unnamed: 0
+AidData Record ID
+Recommended For Aggregates
+AidData Parent ID
+Umbrella
+Financier Country
+Recipient
+Recipient ISO-3
+Recipient Region
+Commitment Year
+Implementation Start Year
+Completion Year
+Title
+Description
+Staff Comments
+Status
+Intent
+Flow Type
+Flow Type Simplified
+OECD ODA Concessionality Threshold
+Flow Class
+Sector Code
+Sector Name
+Infrastructure
+COVID
+Funding Agencies
+Funding Agencies Type
+Co-financed
+Co-financing Agencies
+Co-financing Agencies Type
+Direct Receiving Agencies
+Direct Receiving Agencies Type
+Indirect Receiving Agencies
+Indirect Receiving Agencies Type
+On-lending
+Implementing Agencies
+Implementing Agencies Type
+Guarantee Provided
+Guarantor
+Guarantor Agency Type
+Insurance Provided
+Insurance Provider
+Insurance Provider Agency Type
+Collateralized
+Collateral Provider
+Collateral Provider Agency Type
+Security Agent/Collateral Agent
+Security Agent/Collateral Agent Type
+Collateral
+Amount (Original Currency)
+Original Currency
+Amount Estimated
+Amount (Constant USD 2021)
+Amount (Nominal USD)
+Adjusted Amount (Original Currency)
+Adjusted Amount (Constant USD 2021)
+Adjusted Amount (Nominal USD)
+Financial Distress
+Commitment Date (MM/DD/YYYY)
+Commitment Date Estimated
+Planned Implementation Start Date (MM/DD/YYYY)
+Actual Implementation Start Date (MM/DD/YYYY)
+Actual Implementation Start Date Estimated
+Deviation from Planned Implementation Start Date
+Planned Completion Date (MM/DD/YYYY)
+Actual Completion Date (MM/DD/YYYY)
+Actual Completion Date Estimated
+Deviation from Planned Completion Date
+Maturity
+Interest Rate
+Grace Period
+Management Fee
+Commitment Fee
+Insurance Fee (Percent)
+Insurance Fee (Nominal USD)
+Default Interest Rate
+First Loan Repayment Date
+Last Loan Repayment Date
+Grant Element (OECD Cash-Flow)
+Grant Element (OECD Grant-Equiv)
+Grant Element (IMF)
+Number of Lenders
+Export Buyer's Credit
+Supplier’s Credit/Export Seller’s Credit
+Interest-Free Loan
+Refinancing
+Investment Project Loan
+M&A
+Working Capital
+EPCF
+Lease
+FXSL/BOP
+CC IRS
+RCF
+GCL
+PBC
+PxF/Commodity Prepayment
+Inter-Bank Loan
+Overseas Project Contracting Loan
+DPA
+Project Finance
+Involving Multilateral
+Non-Chinese Financier
+Short-Term
+Rescue
+Project JV/SPV Host Government Ownership
+Project JV/SPV Chinese Government Ownership
+Level of Public Liability
+Total Source Count
+Official Source Count
+Source URLs
+Source Titles
+Source Publishers
+Source Resource Types
+Contact Name
+Contact Position
+ODA Eligible Recipient
+OECD ODA Income Group
+Location Narrative
+Geographic Level of Precision Available
+ADM1 Level Available
+ADM2 Level Available
+Geospatial Feature Available
+Source Quality Score
+Data Completeness Score
+Implementation Detail Score
+Loan Detail Score
